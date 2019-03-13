@@ -13,6 +13,7 @@ class Shoe
       if brand == old
     BRANDS << brand
   end
+end
   end
 
   def cobble
