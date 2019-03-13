@@ -18,3 +18,5 @@ def brands(brand)
   @brand = brand
   @@BRAND << brand
 end
+
+end
