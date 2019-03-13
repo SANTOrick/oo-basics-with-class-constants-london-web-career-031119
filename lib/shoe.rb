@@ -3,7 +3,7 @@ class Shoe
 
   @@BRANDS = []
 
-  def initialize(brand)
+  def initialize(brand, BRANDS)
     @brand = brand
    @@BRANDS << self.brand
   end
