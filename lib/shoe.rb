@@ -1,3 +1,6 @@
+require 'pry'
+
+
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -17,4 +20,6 @@ def brands=(new_brand)
   BRAND << new_brand
 end
 
+binding.pry
+puts "WHAT DA HECK"
 end
