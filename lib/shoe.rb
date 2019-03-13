@@ -4,6 +4,7 @@ require 'pry'
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
+
   BRANDS = []
 
   def initialize(brand)
@@ -20,6 +21,6 @@ def brands=(new_brand)
   BRAND << new_brand
 end
 
-binding.pry
-puts "WHAT DA HECK"
+# binding.pry
+# puts "WHAT DA HECK"
 end
