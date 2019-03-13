@@ -9,6 +9,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS = brand
   end
 
   def cobble
@@ -16,10 +17,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-def brands=(new_brand)
-  @brand = new_brand
-  BRAND << new_brand
-end
 
 # binding.pry
 # puts "WHAT DA HECK"
