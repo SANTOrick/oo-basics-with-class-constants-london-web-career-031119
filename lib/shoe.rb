@@ -16,3 +16,5 @@ def brand=(new_brand)
   @brand = new_brand
   BRAND << new_brand
 end
+
+end
